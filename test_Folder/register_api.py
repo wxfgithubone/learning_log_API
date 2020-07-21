@@ -1,7 +1,7 @@
 #!/usr/bin/env python 
 # -*- coding: utf-8 -*- 
 # @Time : 2020/7/21 0010 23:09
-# @Author : 王小飞 
+# @Author : 王**
 # @Site : 广州 
 # @File : register.py
 # @Software: PyCharm
@@ -16,7 +16,7 @@ def get_token():
     cookie = re.cookies
     token = re.cookies.items()[0][1]
     print("get登陆的cookie：", cookie)
-    raise token
+    return token
 
 
 url = 'http://localhost:8000/'
@@ -56,7 +56,6 @@ def new_topic():
     cookie_2 = re_2.cookies['csrftoken']
     print(re_2)
     return cookie_2
-
 
 print(new_topic())
 
