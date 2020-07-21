@@ -1,0 +1,16 @@
+GET http://localhost:8000
+#Accept: application/json
+
+###
+POST http://localhost:8000/users/register/
+Content-Type: application/json
+cookie: csroftoken=D72kq3RbJilY5yEttjnaFKSOGRXNiRcBxHfaMbX1OPAEj4MqBc0i44xq2c604skW
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+
+{
+  "username":"测试注册用户",
+  "password1": "wxf990824",
+  "password2": "wxf990824"
+}
+
+###
