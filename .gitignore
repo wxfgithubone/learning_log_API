@@ -1,5 +1,8 @@
-ll_env
 __pycache__/
 .idea/
 venv/
 ll_env_api/
+hello_world.py
+test_api.http
+test_Folder/
+package.json
