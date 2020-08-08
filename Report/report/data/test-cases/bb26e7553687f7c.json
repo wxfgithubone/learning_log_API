@@ -1,0 +1,65 @@
+{
+  "uid" : "bb26e7553687f7c",
+  "name" : "test_add_topic[{\"text\": \"！@#￥%……&*（）——+？》《：{：\"}-http://localhost:8000/new_topic/]",
+  "fullName" : "test_addTopic.TestAddTopic#test_add_topic",
+  "historyId" : "e235314c3c8d4f093d62bed11cc66991",
+  "time" : {
+    "start" : 1596906301850,
+    "stop" : 1596906309423,
+    "duration" : 7573
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'RequestsCookieJar' object has no attribute 'url'",
+  "statusTrace" : "self = <Test.test_case.test_addTopic.TestAddTopic object at 0x000002316E392788>\nin_body = '{\"text\": \"！@#￥%……&*（）——+？》《：{：\"}'\nexp_data = 'http://localhost:8000/new_topic/'\n\n    @pytest.mark.parametrize('in_body, exp_data', topic_data)\n    def test_add_topic(self, in_body, exp_data):\n        reps = Add().add_topic(in_body)\n>       assert reps.url == exp_data\nE       AttributeError: 'RequestsCookieJar' object has no attribute 'url'\n\ntest_addTopic.py:13: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_addTopic"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddTopic"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-90C66B77"
+  }, {
+    "name" : "thread",
+    "value" : "1396-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_addTopic"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp_data",
+    "value" : "'http://localhost:8000/new_topic/'"
+  }, {
+    "name" : "in_body",
+    "value" : "'{\"text\": \"！@#￥%……&*（）——+？》《：{：\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bb26e7553687f7c.json",
+  "parameterValues" : [ "'http://localhost:8000/new_topic/'", "'{\"text\": \"！@#￥%……&*（）——+？》《：{：\"}'" ]
+}

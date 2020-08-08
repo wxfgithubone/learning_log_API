@@ -1,0 +1,202 @@
+{
+  "f2676218b89c527c1f1e9f31fd1ea665" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff4152dde0788851",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'RequestsCookieJar' object has no attribute 'url'",
+      "time" : {
+        "start" : 1596906323295,
+        "stop" : 1596906329823,
+        "duration" : 6528
+      }
+    } ]
+  },
+  "9c04af7480817f1bb07146d4231f0518" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ebb96cd3af7247cd",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'RequestsCookieJar' object has no attribute 'url'",
+      "time" : {
+        "start" : 1596906625230,
+        "stop" : 1596906631915,
+        "duration" : 6685
+      }
+    } ]
+  },
+  "a95531565a5710712e7000f20021d867" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "11cda3391353de25",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'RequestsCookieJar' object has no attribute 'url'",
+      "time" : {
+        "start" : 1596906316757,
+        "stop" : 1596906323276,
+        "duration" : 6519
+      }
+    } ]
+  },
+  "e235314c3c8d4f093d62bed11cc66991" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bb26e7553687f7c",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'RequestsCookieJar' object has no attribute 'url'",
+      "time" : {
+        "start" : 1596906301850,
+        "stop" : 1596906309423,
+        "duration" : 7573
+      }
+    } ]
+  },
+  "6f0349f21fd636d9f566eb55e9ce0634" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "376e7ae1e6b11e14",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'RequestsCookieJar' object has no attribute 'url'",
+      "time" : {
+        "start" : 1596906611531,
+        "stop" : 1596906618645,
+        "duration" : 7114
+      }
+    } ]
+  },
+  "92daab05c32af25500a29b36cb2632b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9d901a1217ee3daa",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'RequestsCookieJar' object has no attribute 'url'",
+      "time" : {
+        "start" : 1596906598361,
+        "stop" : 1596906604848,
+        "duration" : 6487
+      }
+    } ]
+  },
+  "331a090c9223fb3736e7e7fb62a29803" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f9c24a3957bd902d",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'RequestsCookieJar' object has no attribute 'url'",
+      "time" : {
+        "start" : 1596906604900,
+        "stop" : 1596906611523,
+        "duration" : 6623
+      }
+    } ]
+  },
+  "f383233be873059c089e50382d24c0a1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "209d318c7f6234e4",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'RequestsCookieJar' object has no attribute 'url'",
+      "time" : {
+        "start" : 1596906309433,
+        "stop" : 1596906316748,
+        "duration" : 7315
+      }
+    } ]
+  },
+  "c93432395af52dbcfee05e8b7e67768b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cce1518923cf1a4b",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'RequestsCookieJar' object has no attribute 'url'",
+      "time" : {
+        "start" : 1596906295301,
+        "stop" : 1596906301797,
+        "duration" : 6496
+      }
+    } ]
+  },
+  "cbdf3d3082b236846cb0d8592fff1b94" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "64dc3f91b6d45879",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'RequestsCookieJar' object has no attribute 'url'",
+      "time" : {
+        "start" : 1596906618654,
+        "stop" : 1596906625211,
+        "duration" : 6557
+      }
+    } ]
+  }
+}

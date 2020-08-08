@@ -1,0 +1,143 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'RequestsCookieJar' object has no attribute 'url'",
+      "children" : [ {
+        "name" : "test_add_topic[{\"text\": \"你好，接口自动化填写\"}-http://localhost:8000/new_topic/]",
+        "uid" : "cce1518923cf1a4b",
+        "parentUid" : "5ad2791506e81691e615d5a3a8e16d19",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596906295301,
+          "stop" : 1596906301797,
+          "duration" : 6496
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'http://localhost:8000/new_topic/'", "'{\"text\": \"你好，接口自动化填写\"}'" ]
+      }, {
+        "name" : "test_add_topic[{\"text\": \"！@#￥%……&*（）——+？》《：{：\"}-http://localhost:8000/new_topic/]",
+        "uid" : "bb26e7553687f7c",
+        "parentUid" : "5ad2791506e81691e615d5a3a8e16d19",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596906301850,
+          "stop" : 1596906309423,
+          "duration" : 7573
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'http://localhost:8000/new_topic/'", "'{\"text\": \"！@#￥%……&*（）——+？》《：{：\"}'" ]
+      }, {
+        "name" : "test_add_topic[{\"text\": \"你\"}-http://localhost:8000/new_topic/]",
+        "uid" : "209d318c7f6234e4",
+        "parentUid" : "5ad2791506e81691e615d5a3a8e16d19",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596906309433,
+          "stop" : 1596906316748,
+          "duration" : 7315
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'http://localhost:8000/new_topic/'", "'{\"text\": \"你\"}'" ]
+      }, {
+        "name" : "test_add_topic[{\"text\": \"你好接口自动化填写的你好接口自动化填写的你好接口自动化填写的你好接口自动化填写的你好接口自动化填写\"}-http://localhost:8000/new_topic/]",
+        "uid" : "11cda3391353de25",
+        "parentUid" : "5ad2791506e81691e615d5a3a8e16d19",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596906316757,
+          "stop" : 1596906323276,
+          "duration" : 6519
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'http://localhost:8000/new_topic/'", "'{\"text\": \"你好接口自动化填写的你好接口自动化填写的你好接口自动化填写的你好接口自动化填写的你好接口自动化填写\"}'" ]
+      }, {
+        "name" : "test_add_topic[{\"text\": \"你好，接口自动化填写你好，接口自动化填写你好，接口自动化填写你好，接口自动化填写你好，接口自动化填写\"}-http://localhost:8000/new_topic/]",
+        "uid" : "ff4152dde0788851",
+        "parentUid" : "5ad2791506e81691e615d5a3a8e16d19",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596906323295,
+          "stop" : 1596906329823,
+          "duration" : 6528
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'http://localhost:8000/new_topic/'", "'{\"text\": \"你好，接口自动化填写你好，接口自动化填写你好，接口自动化填写你好，接口自动化填写你好，接口自动化填写\"}'" ]
+      }, {
+        "name" : "test_add_topic[{\"text\": \"你好，接口自动化填写\"}-http://localhost:8000/new_topic/]",
+        "uid" : "9d901a1217ee3daa",
+        "parentUid" : "5ad2791506e81691e615d5a3a8e16d19",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596906598361,
+          "stop" : 1596906604848,
+          "duration" : 6487
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'http://localhost:8000/new_topic/'", "'{\"text\": \"你好，接口自动化填写\"}'" ]
+      }, {
+        "name" : "test_add_topic[{\"text\": \"！@#￥%……&*（）——+？》《：{：\"}-http://localhost:8000/new_topic/]",
+        "uid" : "f9c24a3957bd902d",
+        "parentUid" : "5ad2791506e81691e615d5a3a8e16d19",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596906604900,
+          "stop" : 1596906611523,
+          "duration" : 6623
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'http://localhost:8000/new_topic/'", "'{\"text\": \"！@#￥%……&*（）——+？》《：{：\"}'" ]
+      }, {
+        "name" : "test_add_topic[{\"text\": \"你\"}-http://localhost:8000/new_topic/]",
+        "uid" : "376e7ae1e6b11e14",
+        "parentUid" : "5ad2791506e81691e615d5a3a8e16d19",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596906611531,
+          "stop" : 1596906618645,
+          "duration" : 7114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'http://localhost:8000/new_topic/'", "'{\"text\": \"你\"}'" ]
+      }, {
+        "name" : "test_add_topic[{\"text\": \"你好接口自动化填写的你好接口自动化填写的你好接口自动化填写的你好接口自动化填写的你好接口自动化填写\"}-http://localhost:8000/new_topic/]",
+        "uid" : "64dc3f91b6d45879",
+        "parentUid" : "5ad2791506e81691e615d5a3a8e16d19",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596906618654,
+          "stop" : 1596906625211,
+          "duration" : 6557
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'http://localhost:8000/new_topic/'", "'{\"text\": \"你好接口自动化填写的你好接口自动化填写的你好接口自动化填写的你好接口自动化填写的你好接口自动化填写\"}'" ]
+      }, {
+        "name" : "test_add_topic[{\"text\": \"你好，接口自动化填写你好，接口自动化填写你好，接口自动化填写你好，接口自动化填写你好，接口自动化填写\"}-http://localhost:8000/new_topic/]",
+        "uid" : "ebb96cd3af7247cd",
+        "parentUid" : "5ad2791506e81691e615d5a3a8e16d19",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596906625230,
+          "stop" : 1596906631915,
+          "duration" : 6685
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'http://localhost:8000/new_topic/'", "'{\"text\": \"你好，接口自动化填写你好，接口自动化填写你好，接口自动化填写你好，接口自动化填写你好，接口自动化填写\"}'" ]
+      } ],
+      "uid" : "5ad2791506e81691e615d5a3a8e16d19"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

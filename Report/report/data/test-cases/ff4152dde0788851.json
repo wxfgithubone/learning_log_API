@@ -1,0 +1,65 @@
+{
+  "uid" : "ff4152dde0788851",
+  "name" : "test_add_topic[{\"text\": \"你好，接口自动化填写你好，接口自动化填写你好，接口自动化填写你好，接口自动化填写你好，接口自动化填写\"}-http://localhost:8000/new_topic/]",
+  "fullName" : "test_addTopic.TestAddTopic#test_add_topic",
+  "historyId" : "f2676218b89c527c1f1e9f31fd1ea665",
+  "time" : {
+    "start" : 1596906323295,
+    "stop" : 1596906329823,
+    "duration" : 6528
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'RequestsCookieJar' object has no attribute 'url'",
+  "statusTrace" : "self = <Test.test_case.test_addTopic.TestAddTopic object at 0x000002316E3920C8>\nin_body = '{\"text\": \"你好，接口自动化填写你好，接口自动化填写你好，接口自动化填写你好，接口自动化填写你好，接口自动化填写\"}'\nexp_data = 'http://localhost:8000/new_topic/'\n\n    @pytest.mark.parametrize('in_body, exp_data', topic_data)\n    def test_add_topic(self, in_body, exp_data):\n        reps = Add().add_topic(in_body)\n>       assert reps.url == exp_data\nE       AttributeError: 'RequestsCookieJar' object has no attribute 'url'\n\ntest_addTopic.py:13: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_addTopic"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddTopic"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-90C66B77"
+  }, {
+    "name" : "thread",
+    "value" : "1396-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_addTopic"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp_data",
+    "value" : "'http://localhost:8000/new_topic/'"
+  }, {
+    "name" : "in_body",
+    "value" : "'{\"text\": \"你好，接口自动化填写你好，接口自动化填写你好，接口自动化填写你好，接口自动化填写你好，接口自动化填写\"}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ff4152dde0788851.json",
+  "parameterValues" : [ "'http://localhost:8000/new_topic/'", "'{\"text\": \"你好，接口自动化填写你好，接口自动化填写你好，接口自动化填写你好，接口自动化填写你好，接口自动化填写\"}'" ]
+}
