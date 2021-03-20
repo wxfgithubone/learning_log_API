@@ -12,7 +12,7 @@ idna==2.10
 importlib-metadata==1.7.0
 iniconfig==1.0.0
 itsdangerous==1.1.0
-Jinja2==2.11.2
+Jinja2==2.11.3
 lxml @ file:///F:/xf_py/conner/learning_log_API/lxml-4.5.2-cp37-cp37m-win_amd64.whl
 MarkupSafe==1.1.1
 more-itertools==8.4.0
